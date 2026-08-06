@@ -1,0 +1,4 @@
+# passport-jwt — the strategy's own mocha suite is the gate; lockfile is honoured.
+test:
+  - name: mocha
+    run: npm ci --no-audit --no-fund && npm test
